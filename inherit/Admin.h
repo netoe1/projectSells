@@ -1,4 +1,4 @@
-#include "Usuario.h"
+#include "../parent/Usuario.h"
 
 class Admin:public Usuario{
     private:
