@@ -7,13 +7,11 @@ class Admin:public Usuario{
 
     public:
         std::string getUsuario();
-        std::string getSenha();
-        
+        std::string getSenha()
         void setUsuario(int x);
         void setSenha(int x);
     
 };
-
 
 std::string Admin :: getUsuario(){
     return usuario;
