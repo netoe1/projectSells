@@ -33,14 +33,14 @@ class Usuario{
     /*SETS*/
 
         void setId(int x);
-        void setNome(int x);
-        void setCpf(int x);
-        void setSenha_login(int x);
-        void setUsuario_login(int x);
-        void setDataNasc(int x);
-        void setTelefone(int x);
-        void setUf(int x);
-        void setIe(int x);
+        void setNome(std::string x);
+        void setCpf(std::string x );
+        void setSenha_login(std::string x);
+        void setUsuario_login(std::string x );
+        void setDataNasc(std::string x );
+        void setTelefone(std::string x);
+        void setUf(std::string x);
+        void setIe(std::string x);
 
     /*METHODS*/
 
@@ -82,27 +82,27 @@ std::string Usuario::getIe(){
 void Usuario::setId(int x){
     id = x;
 }
-void Usuario:: setNome(int x){        
+void Usuario::setNome(std::string x){        
     nome = x;
 }
-void Usuario::setCpf(int x){
+void Usuario::setCpf(std::string x){
     cpf = x;
 }
-void Usuario::setSenha_login(int x){
+void Usuario::setSenha_login(std::string x){
     senha_login = x;
 }
-void Usuario::setUsuario_login(int x){
+void Usuario::setUsuario_login(std::string x){
     usuario_login = x;
 }
-void Usuario::setDataNasc(int x){
+void Usuario::setDataNasc(std::string x){
     dataNasc = x;
 }
-void Usuario::setTelefone(int x){
+void Usuario::setTelefone(std::string x){
     telefone = x;
 }
-void Usuario::setUf(int x){
+void Usuario::setUf(std::string x){
     uf =x;
 }
-void Usuario::setIe(int x){
+void Usuario::setIe(std::string x){
     ie = x;
 }
