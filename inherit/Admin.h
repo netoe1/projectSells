@@ -1,4 +1,4 @@
-#include "../parent/Usuario.h"
+#include "empresarial/parent/Usuario.h"
 
 class Admin:public Usuario{
     private:
@@ -7,7 +7,7 @@ class Admin:public Usuario{
 
     public:
         std::string getUsuario();
-        std::string getSenha()
+        std::string getSenha();
         void setUsuario(int x);
         void setSenha(int x);
     
@@ -22,7 +22,7 @@ std::string Admin :: getSenha(){
 
 
 
-void Admin::setUsuario(int x)
+void Admin:: setUsuario(int x)
 {
     usuario = x;
 }
