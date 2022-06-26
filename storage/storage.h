@@ -1,6 +1,8 @@
 #include "empresarial/parent/Usuario.h"
 
 
+SalvaDados banco[100];
+
 class SalvaDados: public Usuario{
     public:
         void salvarTudo();
