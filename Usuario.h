@@ -43,7 +43,11 @@ class Usuario{
         void setIe(int x);
 
     /*METHODS*/
+
+    void definirLogin();
 };
+
+/*GET*/
 
 int Usuario:: getId(){
     return id;
@@ -72,6 +76,8 @@ std::string Usuario::getUf(){
 std::string Usuario::getIe(){
     return ie;
 }
+
+/*SET*/
 
 void Usuario::setId(int x){
     id = x;
